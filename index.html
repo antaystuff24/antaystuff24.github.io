@@ -29,20 +29,34 @@ crossorigin="anonymous"></script>
     <h3>Columna 1</h3>
   <p>Contenido irrelevante de</p>
   <p>la primera columna.</p>
-    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-danger">Botón rojo</button>
   </div>
       
   <div class="col-3">
    <h3>Columna 2</h3>
   <p>Contenido irrelevante de</p>
   <p>la segunda columna.</p>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-primary">1</button>
+  <button type="button" class="btn btn-primary">2</button>
+
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+</div>
   </div>
       
   <div class="col-3">
    <h3>Columna 3</h3>
   <p>Contenido irrelevante de</p>
   <p>la tercera columna.</p>
-    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-secondary">Botón gris</button>
   </div>
     
   <div class="col-3">
